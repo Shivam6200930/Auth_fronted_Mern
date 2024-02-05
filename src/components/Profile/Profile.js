@@ -3,8 +3,6 @@ import { useNavigate,useLocation } from "react-router-dom"
 import axios from "axios";
 import "../../App.css";
 import { Cookie } from "lucide-react";
-import { CookieSharp } from "@mui/icons-material";
-
 const Profile = () => {
   const navigete=useNavigate()
   const [data,setdata]=useState({
